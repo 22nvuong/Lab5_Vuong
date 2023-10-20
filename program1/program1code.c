@@ -110,7 +110,7 @@ void print_sales_descending(float* sales)
 
 int main()
 {
-    float* month_sales_data = read_data("input_test.txt");
+    float* month_sales_data = read_data("sampleinput.txt");
     print_data(month_sales_data);
     printf("\n");
     min_max_avg(month_sales_data);
